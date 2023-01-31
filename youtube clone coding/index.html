@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://googleapis.com/css?family=Robot&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Clone</title>
+    <script src="https://kit.fontawesome.com/70e90e126c.js" 
+    crossorigin="anonymous">
+    </script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/1.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+        <!-- Video Info -->
+        <section class="info">
+            <!-- Metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#Bowling</li>
+                    <li>#Stroker</li>
+                    <li>#Classic</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp"
+                        >Youtube 클론 코딩 By DreamCoding | 클래식 볼러의 연습 영상
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <div class="views">
+                    <span class="views">1M view 1 month ago</span>
+                </div>
+            </div>
+            <!-- Acitions -->
+            <ul class="actions">
+                <li><button><i class="active fas fa-thumbs-up"></i></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i></button></li>
+                <li><button><i class="fas fa-share"></i></button></li>
+                <li><button><i class="fas fa-plus"></i></button></li>
+                <li><button><i class="fas fa-font-awesome-flag"></i></button></li>
+            </ul>
+            <!-- Channel Description -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/1.jpg" alt="" />
+                    <div class="info">
+                        <span class="name">ROK Bowling by MK</span>
+                        <span class="subscribers">1M subcribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+
+        <!-- Up Next -->
+        <section class="Upnext">
+            <span class="title">
+                <ul>
+                    <li class="item">
+                        <div class="img"><img src="image/1.jpg" alt=""></div>
+                        <div class="info">
+                            <span class="title">이런 초보부터 볼링은 시작하는 겁니다. 마치 코딩처럼! </span>
+                            <span class="name">ROK Bowling By MK</span>
+                            <span class="views">71K views</span>
+                        </div>
+                        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                    </li>
+                    <li class="item">
+                        <div class="img"><img src="image/2.jpg" alt=""></div>
+                        <span class="title">두번째 고대 우레탄 뚫었더니 사실상 스페어볼! 하지만 쓰기나름이니 뭐든 갈고 닦자! </span>
+                        <span class="name">ROK Bowling By MK</span>
+                        <span class="views">50K views</span>
+                        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                    </li>
+                    <li class="item">
+                        <div class="img"><img src="image/3.jpg" alt=""></div>
+                        <span class="title">왼손전향 첫번째 볼! 처음을 내딛을 용기가 중요하다 </span>
+                        <span class="name">ROK Bowling By MK</span>
+                        <span class="views">35K views</span>
+                        <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                    </li>
+                </ul>
+            </span>
+        </section>
+    </div>
+</body>
+</html>
